@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   User Behavior Insights for the improvement of search relevancy.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://o19s.github.io/ubi-website/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://o19s.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  o19s
 
 # Build settings
