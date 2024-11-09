@@ -1,4 +1,4 @@
-# User Behavior Insights Standard
+# The User Behavior Insights (UBI) Standard
 
 The most important part of UBI is its standard that defines how queries and user events are defined.
 

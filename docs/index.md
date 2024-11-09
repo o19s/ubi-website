@@ -1,8 +1,8 @@
 # User Behavior Insights
 
-## Welcome to User Behavior Insights (UBI)!
+## Welcome to User Behavior Insights!
 
-UBI is a [data standard](standard.md) along with a collection of [tools and search engine plugins](tools.md) created to help search engineers gain and utilize an improved understanding of users' actions.
+User Behavior Insights, or UBI, is a [data standard](standard.md) along with a collection of [tools and search engine plugins](tools.md) created to help search engineers gain and utilize an improved understanding of users' actions.
 
 ## Purpose and Goals
 
@@ -15,3 +15,16 @@ The User Behavior Insights standard attempts to provide a search focused standar
 ## Reference Implementation
 
 A full reference implementation using OpenSearch is available at [chorus-opensearch-edition](https://github.com/o19s/chorus-opensearch-edition).
+
+## Sponsored By
+
+| Person           | Affiliation                                                     | Contact                         |
+|------------------|-----------------------------------------------------------------|---------------------------------|
+| Eric Pugh        | [OpenSource Connections](https://www.opensourceconnections.com) | epugh@opensourceconnections.com |
+| Jeff Zemerick    | [Mountain Fog](https://www.mtnfog.com)                          | jeff.zemerick@mtnfog.com        |
+| Stavros Macrakis | Amazon                                                          |                                 |
+| Charlie Hull     |                                                                 |                                 |
+
+## What UBI Powers
+
+Are you or your organization using UBI? Let us know! We'd love to hear about it and tell your success story here.

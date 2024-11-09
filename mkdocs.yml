@@ -6,7 +6,8 @@ theme:
     primary: blue
 nav:
   - Home: index.md
-  - UBI Standard: standard.md
+  - News: news.md
+  - The UBI Standard: standard.md
   - Tools and Plugins: tools.md
 extra:
   social:
