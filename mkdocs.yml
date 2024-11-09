@@ -10,6 +10,7 @@ nav:
   - News: news.md
   - The UBI Standard: standard.md
   - Tools and Plugins: tools.md
+  - Datasets: datasets.md
   - Help: help.md
 extra:
   social:
