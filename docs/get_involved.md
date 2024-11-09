@@ -8,7 +8,7 @@ To contribute, you can look at the GitHub Issues in each of the following reposi
 
 ## UBI Repositories
 
-* [UBI Standard](https://github.com/o19s/ubi)
-* [OpenSearch UBI Plugin](https://github.com/opensearch-project/user-behavior-insights)
-* [Elasticsearch UBI Plugin](https://github.com/o19s/user-behavior-insights-elasticsearch)
+* :material-link: [UBI Standard](https://github.com/o19s/ubi)
+* :material-link: [OpenSearch UBI Plugin](https://github.com/opensearch-project/user-behavior-insights)
+* :material-link: [Elasticsearch UBI Plugin](https://github.com/o19s/user-behavior-insights-elasticsearch)
 

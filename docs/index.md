@@ -6,6 +6,11 @@
 
 User Behavior Insights, or UBI, is a [data standard](standard.md) along with a collection of [tools and search engine plugins](tools.md) created to help search engineers gain and utilize an improved understanding of users' actions.
 
+### UBI in Action!
+
+* UBI at OpenSearchCon EU 2024 - :material-link: [Watch the presentation](https://www.youtube.com/watch?v=dH7SPHKpxo0&list=PLzgr9zSpws14zCETcKtCBwcOuTGMccpV9&index=32)
+* UBI at Haystack Conference 2024 - :material-link: [Watch the presentation](https://www.youtube.com/watch?v=QltMXXHcwTI)
+
 ### Help Getting Started
 
 For questions or help getting started, reach out to [help@ubisearch.dev](mailto:help@ubisearch.dev) or join us in the `#ubi` channel of the [Relevance Slack workspace](https://opensourceconnections.com/slack) and we will be glad to help!

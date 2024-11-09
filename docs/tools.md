@@ -2,9 +2,9 @@
 
 There are several available tools and plugins supporting UBI.
 
-* [OpenSearch UBI plugin](https://www.github.com/opensearch-project/user-behavior-insights)
-* [Elasticsearch UBI Plugin](https://github.com/o19s/user-behavior-insights-elasticsearch)
-* [Apache Solr implementation](https://github.com/apache/solr/pull/2452)
+* :material-link: [OpenSearch UBI plugin](https://www.github.com/opensearch-project/user-behavior-insights)
+* :material-link: [Elasticsearch UBI Plugin](https://github.com/o19s/user-behavior-insights-elasticsearch)
+* :material-link: [Apache Solr implementation](https://github.com/apache/solr/pull/2452)
 
 ## UBI Plugin for OpenSearch 
 
