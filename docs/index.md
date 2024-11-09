@@ -2,6 +2,8 @@
 
 ## Welcome to User Behavior Insights!
 
+![logo](img/ubi.png)
+
 User Behavior Insights, or UBI, is a [data standard](standard.md) along with a collection of [tools and search engine plugins](tools.md) created to help search engineers gain and utilize an improved understanding of users' actions.
 
 ## Purpose and Goals
