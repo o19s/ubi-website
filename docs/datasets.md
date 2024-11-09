@@ -1,8 +1,10 @@
 # Datasets
 
+This page lists datasets and data generation utilities for use with UBI.
+
 When working to integrate with UBI it can be helpful to have data in the UBI format to design and develop against.
 
-This page lists datasets and data generation utilities for use with UBI.
+Refer to the [Samples](https://github.com/o19s/ubi/tree/main/samples) for JSON files illustrating events and queries in the UBI format.
 
 ## UBI Data Generator
 
