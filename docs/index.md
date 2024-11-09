@@ -24,12 +24,12 @@ A full reference implementation using OpenSearch is available at [chorus-opensea
 
 ## Sponsored By
 
-| Person           | Affiliation                                                     | Contact                         |
-|------------------|-----------------------------------------------------------------|---------------------------------|
-| Eric Pugh        | [OpenSource Connections](https://www.opensourceconnections.com) | epugh@opensourceconnections.com |
-| Jeff Zemerick    | [Mountain Fog](https://www.mtnfog.com)                          | jeff.zemerick@mtnfog.com        |
-| Stavros Macrakis | Amazon                                                          |                                 |
-| Charlie Hull     |                                                                 |                                 |
+| Person                                                     | Affiliation                                                     | Contact                         |
+|------------------------------------------------------------|-----------------------------------------------------------------|---------------------------------|
+| Eric Pugh                                                  | [OpenSource Connections](https://www.opensourceconnections.com) | epugh@opensourceconnections.com |
+| [Jeff Zemerick](https://www.linkedin.com/in/jeffzemerick/) | [Mountain Fog](https://www.jeffzemerick.dev/)                          | jeff.zemerick@mtnfog.com        |
+| Stavros Macrakis                                           | Amazon                                                          |                                 |
+| Charlie Hull                                               |                                                                 |                                 |
 
 ## What UBI Powers
 
