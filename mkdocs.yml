@@ -1,0 +1,17 @@
+site_name: User Behavior Insights
+site_url: https://o19s.github.io/ubi-website
+theme:
+  name: material
+  palette:
+    primary: blue
+nav:
+  - Home: index.md
+  - Tools and Plugins: tools.md
+  - UBI Standard: standard.md
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/o19s/ubi
+  generator: false
+copyright: Copyright &copy; 2024 OpenSource Connections
+repo_url: https://github.com/o19s/ubi
