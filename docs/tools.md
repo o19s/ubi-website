@@ -9,4 +9,3 @@ There are several available tools and plugins supporting UBI.
 ## UBI Plugin for Elasticsearch
 
 * [OpenSearch UBI Plugin](https://github.com/o19s/user-behavior-insights-elasticsearch)
-* 
