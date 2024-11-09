@@ -6,6 +6,10 @@
 
 User Behavior Insights, or UBI, is a [data standard](standard.md) along with a collection of [tools and search engine plugins](tools.md) created to help search engineers gain and utilize an improved understanding of users' actions.
 
+### Help Getting Started
+
+For questions or help getting started, reach out to [help@ubisearch.dev](mailto:help@ubisearch.dev) or join us in the `#ubi` channel of the [Relevance Slack workspace](https://opensourceconnections.com/slack) and we will be glad to help!
+
 ## Purpose and Goals
 
 Many Search teams struggle with understanding "Why is my user doing this". They have great understanding of an incoming query and the documents returned, but no ability to connect that dot with an indicator of success, such as a click through event or add to cart event.

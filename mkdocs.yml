@@ -6,9 +6,11 @@ theme:
     primary: blue
 nav:
   - Home: index.md
+  - Quick Start: quickstart.md
   - News: news.md
   - The UBI Standard: standard.md
   - Tools and Plugins: tools.md
+  - Help: help.md
 extra:
   social:
     - icon: fontawesome/brands/github 
