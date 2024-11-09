@@ -6,8 +6,8 @@ theme:
     primary: blue
 nav:
   - Home: index.md
-  - Tools and Plugins: tools.md
   - UBI Standard: standard.md
+  - Tools and Plugins: tools.md
 extra:
   social:
     - icon: fontawesome/brands/github 
