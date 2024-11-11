@@ -1,6 +1,6 @@
 # Quick Start
 
-![Chorus](img/chorus-logo.png)
+![Chorus](img/chorus_plus_ubi.png)
 
 The Chorus project provides a UBI reference implementation that you can use to build on or model your search stack. Chorus uses OpenSearch, but the instructions generally apply also to Elasticsearch.
 
