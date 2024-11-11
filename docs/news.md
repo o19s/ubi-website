@@ -6,6 +6,10 @@ This release introduces a formal application element to both queries and events 
 
 Learn more about the changes in version 1.2 of the UBI standard at [https://github.com/o19s/ubi/releases/tag/v1.2.0](https://github.com/o19s/ubi/releases/tag/v1.2.0).
 
+## Initial UBI Plugin for Elasticsearch - October 9, 2024
+
+The initial code for a [UBI plugin for Elasticsearch](https://github.com/o19s/user-behavior-insights-elasticsearch) is now available.
+
 ## OpenSearch 2.17.1 UBI Plugin - October 4, 2024
 
 The UBI plugin for OpenSearch 2.17.1 is now available.
