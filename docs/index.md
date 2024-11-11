@@ -34,7 +34,7 @@ A full reference implementation using OpenSearch is available at [chorus-opensea
 | Eric Pugh                                                  | [OpenSource Connections](https://www.opensourceconnections.com) | epugh@opensourceconnections.com |
 | [Jeff Zemerick](https://www.linkedin.com/in/jeffzemerick/) | [Mountain Fog](https://www.jeffzemerick.dev/)                          | jeff.zemerick@mtnfog.com        |
 | Stavros Macrakis                                           | Amazon                                                          |                                 |
-| Charlie Hull                                               |                                                                 |                                 |
+| Charlie Hull                                               |                                                                 | thesearchjuggler@gmail.com      |
 
 ## What UBI Powers
 
