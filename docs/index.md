@@ -32,7 +32,7 @@ A full reference implementation using OpenSearch is available at [chorus-opensea
 | Person                                                    | Affiliation                                                     | Contact                         |
 |-----------------------------------------------------------|-----------------------------------------------------------------|---------------------------------|
 | Eric Pugh                                                 | [OpenSource Connections](https://www.opensourceconnections.com) | epugh@opensourceconnections.com |
-| Jeff Zemerick | Mountain Fog](https://www.jeffzemerick.dev/)                          | jeff.zemerick@mtnfog.com        |
+| Jeff Zemerick | [Mountain Fog](https://www.jeffzemerick.dev/)                   | jeff.zemerick@mtnfog.com        |
 | Stavros Macrakis                                          | Amazon                                                          |                                 |
 | Charlie Hull                                              |                                                                 | thesearchjuggler@gmail.com      |
 
