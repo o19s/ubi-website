@@ -18,7 +18,7 @@ source ./venv/bin/activate
 mkdocs gh-deploy
 ```
 
-Or run the `deploy.sh` script which does the same commands.
+Pushes to `main` will initiate a deployment via GitHub Actions.
 
 ## License
 
