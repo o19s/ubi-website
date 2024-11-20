@@ -1,5 +1,17 @@
 # UBI News
 
+## [OpenSearch 2.18.0.1 UBI Plugin](https://github.com/opensearch-project/user-behavior-insights/releases/tag/2.18.0.1) - November 19, 2024
+
+* Adding an API endpoint to initialize the plugin and create the UBI indexes
+* Add query_id to the events mapping
+* Change user_query to be a keyword
+
+## [OpenSearch 2.18.0.0 UBI Plugin](https://github.com/opensearch-project/user-behavior-insights/releases/tag/2.18.0.0) - November 15, 2024
+
+* Capturing application in the events
+* Changing the timestamp to strict_date_time for consistency
+* Handling msearch requests
+
 ## UBI 1.2.0 Announced - October 25, 2024
 
 This release introduces a formal application element to both queries and events so you can distingus different sources of queries and their follow on events. Think type-ahead and search as two common applications.  We also formalize that the timestamps are ISO 8601 formatted. 
