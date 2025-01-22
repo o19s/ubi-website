@@ -10,6 +10,7 @@ User Behavior Insights, or UBI, is a [data standard](standard.md) along with a c
 
 Learn more about UBI through conference presentations. If you have talked about UBI let us know so we can link your talk here, too.
 
+* :material-link: UBI at OpenSearchCon NA 2024 - [Watch the presentation](https://youtu.be/xi261oUamXc?si=59zykK08kSMvG9nD)
 * :material-link: UBI at OpenSearchCon EU 2024 - [Watch the presentation](https://www.youtube.com/watch?v=dH7SPHKpxo0)
 * :material-link: UBI at Haystack Conference 2024 - [Your Search Engine Needs a Memory! (presentation and slides)](https://haystackconf.com/us2024/talk-15/)
 * :material-link: UBI at MICES 2024 - [Watch the presentation](https://youtu.be/8_4VRtMWtSY) and see the [slides](https://mices.co/slides/user-behavior%20insights-mices-2024.pdf)
