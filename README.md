@@ -5,7 +5,10 @@ This is the website for UBI which is available at https://ubisearch.dev, hosted 
 ## Serving Locally for Development
 
 ```
+python -m venv venv
 source ./venv/bin/activate
+pip install -r requirements.txt
+
 mkdocs serve
 ```
 
