@@ -1,14 +1,58 @@
-# Tools and Plugins
+# UBI Tools and Plugins
 
 There are several available tools and plugins supporting UBI.
 
-* :material-link: [OpenSearch UBI plugin](https://www.github.com/opensearch-project/user-behavior-insights)
-* :material-link: [Elasticsearch UBI Plugin](https://github.com/o19s/user-behavior-insights-elasticsearch)
+* :material-link: [Amazon OpenSearch Ingestion blueprint](#amazon-opensearch-ingestion-blueprint)
+* :material-link: [OpenSearch UBI plugin](#ubi-plugin-for-opensearch)
+* :material-link: [Elasticsearch UBI Plugin](#ubi-plugin-for-elasticsearch)
 * :material-link: [Apache Solr implementation](https://github.com/apache/solr/pull/2452)
 
-## UBI Plugin for OpenSearch 
+## Amazon OpenSearch Ingestion Blueprint
+
+The Amazon OpenSearch Ingestion UBI blueprint is a pre-defined configuration that allows for creating an OpenSearch Ingestion pipeline that ingests UBI queries and events.
+
+* [AWS OpenSearch Ingestion blueprint](https://github.com/o19s/opensearch-search-quality-evaluation/blob/main/osi/blueprint.yaml)
+* [Terraform for creating the full pipeline](https://github.com/o19s/opensearch-search-quality-evaluation/tree/main/osi)
+
+The blueprint creates a pipeline that facilitates receiving and storing UBI queries and events. The pipeline creates:
+* An S3 sink for UBI queries and events.
+* An OpenSearch sink for UBI queries and events.
+
+UBI queries and events that are received via an HTTP source are routed to one of the above sinks based on the value of the `type` value in the received JSON. For example, the script below sends a UBI `event` to the pipeline:
+
+```
+awscurl \
+	--service osis \
+	--region ${AWS_REGION} \
+	--profile ${AWS_PROFILE} \
+	-X POST \
+	-H "Content-Type: application/json" \
+	-d '[{"type": "event", "action_name": "click", "query_id": "99999999-4455-6677-8899-aabbccddeeff", "event_attributes": {"position": {"ordinal": 1}, "object": {"object_id": "1234", "object_id_field": "ean", "user_id": "abc"}}}]' \
+	https://${OSIS_PIPELINE_ENDPOINT_URL}/ubi
+```
+
+And the similar command below sends a UBI `query` to the pipeline:
+
+```
+awscurl \
+	--service osis \
+	--region ${AWS_REGION} \
+	--profile ${AWS_PROFILE} \
+	-X POST \
+	-H "Content-Type: application/json" \
+	-d '[{"type": "query", "user_query": "computer", "query_id": "00112233-4455-6677-8899-aabbccddeeff"}]' \
+	https://${OSIS_PIPELINE_ENDPOINT_URL}/ubi
+```
+
+Note the `type` property in the body of each request. The `type` property is used by the pipeline to route the request to either a query or event sink.
+
+After this query and event are sent, they will be delivered to the appropriate sink and viewable in the Amazon S3 bucket and in the Amazon OpenSearch index.
+
+## UBI Plugin for OpenSearch
 
 The [OpenSearch UBI plugin](https://www.github.com/opensearch-project/user-behavior-insights) facilitates persisting client-side events (e.g. item clicks, scroll depth) and OpenSearch queries for the purpose of analyzing the data to improve search relevance and user experience. The concepts of UBI and this plugin project was originally proposed in the [OpenSearch UBI RFC](https://github.com/opensearch-project/OpenSearch/issues/12084).
+
+Note that the UBI plugin is *not* required to use UBI. You can use any method of persisting queries and events into OpenSearch. The [UBI JavaScript Collector](https://github.com/opensearch-project/user-behavior-insights/blob/main/ubi-javascript-collector/ubi.js) is an example.
 
 To use the plugin, first [download](https://github.com/opensearch-project/user-behavior-insights/releases) the release appropriate for your version of OpenSearch. Next, install the plugin:
 
@@ -60,6 +104,8 @@ curl http://localhost:9200/ubi_events/_search
 ## UBI Plugin for Elasticsearch
 
 The [Elasticsearch UBI Plugin](https://github.com/o19s/user-behavior-insights-elasticsearch) is a fork of the OpenSearch UBI plugin. This plugin provides similar core functionality but other functionality will differ.
+
+Note that the UBI plugin is *not* required to use UBI. You can use any method of persisting queries and events into Elasticsearch. The [UBI JavaScript Collector](https://github.com/opensearch-project/user-behavior-insights/blob/main/ubi-javascript-collector/ubi.js) is an example.
 
 To use the plugin, first [download](hhttps://github.com/o19s/user-behavior-insights-elasticsearch/releases) the release appropriate for your version of Elasticsearch. Next, install the plugin:
 
