@@ -2,11 +2,13 @@
 
 ## Welcome to User Behavior Insights!
 
-<img style="float: right;" src="img/ubi.png">
+<img style="float: right;" src="img/ubi.png" title="User Behavior Insights"">
 
 User Behavior Insights, or UBI, is a [data standard](standard.md) along with a collection of [tools and search engine plugins](tools.md) created to help search engineers gain and utilize an improved understanding of users' actions.
 
-### UBI in Action!
+For questions or help getting started, reach out to [help@ubisearch.dev](mailto:help@ubisearch.dev) or join us in the `#ubi` channel of the [Relevance Slack workspace](https://opensourceconnections.com/slack).
+
+### UBI Conference Presentations
 
 Learn more about UBI through conference presentations. If you have talked about UBI let us know so we can link your talk here, too.
 
@@ -14,10 +16,6 @@ Learn more about UBI through conference presentations. If you have talked about 
 * :material-link: UBI at Haystack Conference 2024 - [Your Search Engine Needs a Memory! (presentation and slides)](https://haystackconf.com/us2024/talk-15/)
 * :material-link: UBI at MICES 2024 - [Watch the presentation](https://youtu.be/8_4VRtMWtSY) and see the [slides](https://mices.co/slides/user-behavior%20insights-mices-2024.pdf)
 * :material-link: UBI at Haystack EU 2024 - [Leveraging User Behavior Insights to Enhance Search Relevance (presentation and slides)](https://haystackconf.com/eu2024/talk-1/)
-
-### Help Getting Started
-
-For questions or help getting started, reach out to [help@ubisearch.dev](mailto:help@ubisearch.dev) or join us in the `#ubi` channel of the [Relevance Slack workspace](https://opensourceconnections.com/slack) and we will be glad to help!
 
 ## Purpose and Goals
 
@@ -45,7 +43,7 @@ A full reference implementation, showing UBI tracking search events on an e-comm
 | Eric Pugh                                                 | [OpenSource Connections](https://www.opensourceconnections.com) | epugh@opensourceconnections.com |
 | Jeff Zemerick | [Mountain Fog](https://www.jeffzemerick.dev/)                   | jeff.zemerick@mtnfog.com       |
 | Stavros Macrakis                                          | [Amazon OpenSearch](https://www.opensearch.org/)                | macrakis@amazon.com                               |
-| Charlie Hull                                              | Independent                                                     | thesearchjuggler@gmail.com     |
+| Charlie Hull                                              | [The Search Juggler](https://thesearchjuggler.com/)             | charlie@thesearchjuggler.com     |
 
 ## What UBI Powers
 
