@@ -8,6 +8,10 @@ User Behavior Insights, or UBI, is a [data standard](standard.md) along with a c
 
 For questions or help getting started, reach out to [help@ubisearch.dev](mailto:help@ubisearch.dev) or join us in the `#ubi` channel of the [Relevance Slack workspace](https://opensourceconnections.com/slack).
 
+### What UBI Powers
+
+Are you or your organization using UBI? Let us know! We'd [love to hear about it](mailto:help@ubisearch.dev) and tell your success story here.
+
 ### UBI Conference Presentations
 
 Learn more about UBI through conference presentations. If you have talked about UBI let us know so we can link your talk here, too.
@@ -27,10 +31,10 @@ The User Behavior Insights [standard](standard.md) attempts to provide a search 
 
 Once you have this tracking data, you can potentially use it to:
 
-* develop a deeper understanding of what your users are doing
-* create search relevance metrics
-* tune search parameters automatically 
-* balance between different approaches to search (e.g. lexical and/or semantic)
+* Develop a deeper understanding of what your users are doing.
+* Create search relevance metrics.
+* Tune search parameters automatically. 
+* Balance between different approaches to search (e.g. lexical and/or semantic).
 
 ## Reference Implementation
 
@@ -44,7 +48,3 @@ A full reference implementation, showing UBI tracking search events on an e-comm
 | Jeff Zemerick | [Mountain Fog](https://www.jeffzemerick.dev/)                   | jeff.zemerick@mtnfog.com       |
 | Stavros Macrakis                                          | [Amazon OpenSearch](https://www.opensearch.org/)                | macrakis@amazon.com                               |
 | Charlie Hull                                              | [The Search Juggler](https://thesearchjuggler.com/)             | charlie@thesearchjuggler.com     |
-
-## What UBI Powers
-
-Are you or your organization using UBI? Let us know! We'd [love to hear about it](mailto:help@ubisearch.dev) and tell your success story here.
