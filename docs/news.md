@@ -1,5 +1,9 @@
 # UBI News
 
+## [Amazon OpenSearch Ingestion blueprint](tools.md#amazon-opensearch-ingestion-blueprint) - January 27, 2025
+
+A blueprint yaml is now available for creating an Amazon OpenSearch Ingestion pipeline to facilitate persisting of UBI queries and events.
+
 ## [OpenSearch 2.18.0.1 UBI Plugin](https://github.com/opensearch-project/user-behavior-insights/releases/tag/2.18.0.1) - November 19, 2024
 
 * Adding an API endpoint to initialize the plugin and create the UBI indexes

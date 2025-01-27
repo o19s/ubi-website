@@ -1,20 +1,20 @@
 # UBI Tools and Plugins
 
-There are several available tools and plugins supporting UBI.
+There are several tools and plugins available to support UBI data capture and analysis.
 
-* :material-link: [Amazon OpenSearch Ingestion blueprint](#amazon-opensearch-ingestion-blueprint)
-* :material-link: [OpenSearch UBI plugin](#ubi-plugin-for-opensearch)
-* :material-link: [Elasticsearch UBI Plugin](#ubi-plugin-for-elasticsearch)
-* :material-link: [Apache Solr implementation](https://github.com/apache/solr/pull/2452)
+* :material-link: [Amazon OpenSearch Ingestion blueprint](#amazon-opensearch-ingestion-blueprint) for creating Amazon OpenSearch Ingestion pipeline to support persisting UBI events and queries.
+* :material-link: [OpenSearch UBI plugin](#ubi-plugin-for-opensearch) for facilitating the capture of UBI queries and events in OpenSearch.
+* :material-link: [Elasticsearch UBI Plugin](#ubi-plugin-for-elasticsearch) for facilitating the capture of UBI queries and events in Elasticsearch.
+* :material-link: [Apache Solr implementation](https://github.com/apache/solr/pull/2452) for facilitating the capture of UBI queries and events in Apache Solr.
 
 ## Amazon OpenSearch Ingestion Blueprint
 
 The Amazon OpenSearch Ingestion UBI blueprint is a pre-defined configuration that allows for creating an OpenSearch Ingestion pipeline that ingests UBI queries and events.
 
-* [AWS OpenSearch Ingestion blueprint](https://github.com/o19s/opensearch-search-quality-evaluation/blob/main/osi/blueprint.yaml)
-* [Terraform for creating the full pipeline](https://github.com/o19s/opensearch-search-quality-evaluation/tree/main/osi)
+* [The AWS OpenSearch Ingestion blueprint yaml](https://github.com/o19s/opensearch-search-quality-evaluation/blob/main/osi/blueprint.yaml)
+* [Terraform scripts for creating the full Amazon OpenSearch Ingestion pipeline](https://github.com/o19s/opensearch-search-quality-evaluation/tree/main/osi)
 
-The blueprint creates a pipeline that facilitates receiving and storing UBI queries and events. The pipeline creates:
+The blueprint creates a pipeline that facilitates receiving and storing UBI queries and events. The blueprint creates:
 * An S3 sink for UBI queries and events.
 * An OpenSearch sink for UBI queries and events.
 
