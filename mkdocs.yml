@@ -8,8 +8,8 @@ nav:
   - Home: index.md
   - News: news.md
   - Quick Start: quickstart.md
+  - Tools and Plugins: tools.md
   - The UBI Standard: standard.md
-  - UBI Tools and Plugins: tools.md
   - Datasets: datasets.md
   - Get Involved: get_involved.md
   - Help: help.md
