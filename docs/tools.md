@@ -65,7 +65,7 @@ awscurl \
 	-X GET \
 	--region ${AWS_REGION} \
 	--service es \
-	--profile ${AWS_PROFILE} | jq
+	--profile ${AWS_PROFILE}
 ```
 
 Indexed queries can be viewed by changing the `ubi_events` index to the `ubi_queries` index.
