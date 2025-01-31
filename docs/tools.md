@@ -21,6 +21,12 @@ The blueprint creates a pipeline that facilitates receiving and storing UBI quer
 
 UBI queries and events that are received via an HTTP source are routed to one of the above sinks based on the value of the `type` value in the received JSON. For example, the script below sends a UBI `event` to the pipeline:
 
+### Sending Queries and Events to the Pipeline
+
+The example commands below uses `awscurl` from the [awscurl](https://github.com/okigan/awscurl) open source project.
+
+The following command illustrates how to send a UBI `event` to the pipeline:
+
 ```
 awscurl \
 	--service osis \
