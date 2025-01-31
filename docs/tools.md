@@ -55,6 +55,21 @@ Note the `type` property in the body of each request. The `type` property is use
 
 After this query and event are sent, they will be delivered to the appropriate sink and viewable in the Amazon S3 bucket and in the Amazon OpenSearch index.
 
+### Viewing the UBI Events and Queries
+
+Once UBI queries and events are sent to the pipeline and received, the pipeline will store the queries and events in an S3 bucket and in an OpenSearch index. The example command below illustrates how to search the `ubi_events` index to view the indexed UBI events.
+
+```
+awscurl \
+	"https://${OPENSEARCH_ENDPOINT}/ubi_events/_search" \
+	-X GET \
+	--region ${AWS_REGION} \
+	--service es \
+	--profile ${AWS_PROFILE} | jq
+```
+
+Indexed queries can be viewed by changing the `ubi_events` index to the `ubi_queries` index.
+
 ## UBI Plugin for OpenSearch
 
 The [OpenSearch UBI plugin](https://www.github.com/opensearch-project/user-behavior-insights) facilitates persisting client-side events (e.g. item clicks, scroll depth) and OpenSearch queries for the purpose of analyzing the data to improve search relevance and user experience. The concepts of UBI and this plugin project was originally proposed in the [OpenSearch UBI RFC](https://github.com/opensearch-project/OpenSearch/issues/12084).
