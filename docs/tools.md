@@ -15,6 +15,7 @@ The Amazon OpenSearch Ingestion UBI blueprint is a pre-defined configuration tha
 * [Terraform scripts for creating the full Amazon OpenSearch Ingestion pipeline](https://github.com/o19s/opensearch-search-quality-evaluation/tree/main/osi)
 
 The blueprint creates a pipeline that facilitates receiving and storing UBI queries and events. The blueprint creates:
+
 * An S3 sink for UBI queries and events.
 * An OpenSearch sink for UBI queries and events.
 
