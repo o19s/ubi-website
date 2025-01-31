@@ -76,7 +76,7 @@ The [OpenSearch UBI plugin](https://www.github.com/opensearch-project/user-behav
 
 Note that the UBI plugin is *not* required to use UBI. You can use any method of persisting queries and events into OpenSearch. The [UBI JavaScript Collector](https://github.com/opensearch-project/user-behavior-insights/blob/main/ubi-javascript-collector/ubi.js) is an example.
 
-To use the plugin, first [download](https://github.com/opensearch-project/user-behavior-insights/releases) the release appropriate for your version of OpenSearch. Next, install the plugin:
+To use the plugin, first [download](https://github.com/opensearch-project/user-behavior-insights/releases) the release appropriate for your version of OpenSearch. Next, install the plugin, substituting the version you downloaded with the `2.14.0` in the command below.
 
 ```
 bin/opensearch-plugin install file:/opensearch-ubi-1.0.0-os2.14.0.zip
