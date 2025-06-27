@@ -16,11 +16,22 @@ Are you or your organization using UBI? Let us know! We'd [love to hear about it
 
 Learn more about UBI through conference presentations. If you have talked about UBI let us know so we can link your talk here, too.
 
+
 * :material-link: UBI at OpenSearchCon NA 2024 - [Watch the presentation](https://youtu.be/xi261oUamXc?si=59zykK08kSMvG9nD)
 * :material-link: UBI at OpenSearchCon EU 2024 - [Watch the presentation](https://www.youtube.com/watch?v=dH7SPHKpxo0)
 * :material-link: UBI at Haystack Conference 2024 - [Your Search Engine Needs a Memory! (presentation and slides)](https://haystackconf.com/us2024/talk-15/)
 * :material-link: UBI at MICES 2024 - [Watch the presentation](https://youtu.be/8_4VRtMWtSY) and see the [slides](https://mices.co/slides/user-behavior%20insights-mices-2024.pdf)
 * :material-link: UBI at Haystack EU 2024 - [Leveraging User Behavior Insights to Enhance Search Relevance (presentation and slides)](https://haystackconf.com/eu2024/talk-1/)
+
+There are a number of talks related to the topic of search quality and building tools that are fueled by UBI data as well.
+
+* :material-link: Breaking Search for Fun and Profit at Berlin Buzzwords 2025 - [Watch the presentation](https://www.youtube.com/watch?v=HIoivNg9SkY&list=PLq-odUc2x7i8dTff006Wg2r0fsseSGrpJ&index=57)
+* :material-link: Streamlining Search Quality: Search Relevance Workbench at Berlin Buzzwords 2025 - [Watch the presentation](https://www.youtube.com/watch?v=14kduAl2lx0&list=PLq-odUc2x7i8dTff006Wg2r0fsseSGrpJ&index=17)
+
+
+### Help Getting Started
+
+For questions or help getting started, reach out to [help@ubisearch.dev](mailto:help@ubisearch.dev) or join us in the `#user-behavior-insights` channel of the [Relevance Slack workspace](https://opensourceconnections.com/slack) and we will be glad to help!
 
 ## Purpose and Goals
 

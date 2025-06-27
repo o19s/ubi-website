@@ -4,6 +4,8 @@ There are several tools and plugins available to support UBI data capture and an
 
 * :material-link: [Amazon OpenSearch Ingestion blueprint](#amazon-opensearch-ingestion-blueprint) for creating Amazon OpenSearch Ingestion pipeline to support persisting UBI events and queries.
 * :material-link: [OpenSearch UBI plugin](#ubi-plugin-for-opensearch) for facilitating the capture of UBI queries and events in OpenSearch.
+* :material-link: [OpenSearch Search Relevance Workbench](https://docs.opensearch.org/docs/latest/search-plugins/search-relevance/using-search-relevance-workbench/) leverages UBI for implicit judgments.
+* :material-link: [Kata 7: Team Draft Interleaving A/B Tests](https://github.com/o19s/chorus-opensearch-edition/blob/main/katas/007_configure_AB_with_TDI.md/) teaches you to use UBI data to power your A/B tests using Team Draft Interleaving.
 * :material-link: [Elasticsearch UBI Plugin](#ubi-plugin-for-elasticsearch) for facilitating the capture of UBI queries and events in Elasticsearch.
 * :material-link: [Apache Solr implementation](https://github.com/apache/solr/pull/2452) for facilitating the capture of UBI queries and events in Apache Solr.
 
@@ -175,3 +177,7 @@ To see these events, check the `ubi_queries` and `ubi_events` indexes:
 curl http://localhost:9200/ubi_queries/_search
 curl http://localhost:9200/ubi_events/_search
 ```
+
+## UBI Plugin for Solr
+
+The [Solr UBI Plugin](https://github.com/o19s/user-behavior-insights-elasticsearch) is a fork of the OpenSearch UBI plugin. This plugin provides similar core functionality but other functionality will differ.
