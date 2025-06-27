@@ -1,5 +1,9 @@
 # UBI News
 
+## [UBI released in OpenSearch 3.1](https://opensearch.org/blog/get-started-with-opensearch-3-1/) - June 24, 2025
+
+OpenSearch 3.1 releases with `opensearch-ubi` plugin included and new Search Relevance Workbench that delivers implicit judgments using UBI data.
+
 ## [Amazon OpenSearch Ingestion blueprint](tools.md#amazon-opensearch-ingestion-blueprint) - January 27, 2025
 
 A blueprint yaml is now available for creating an Amazon OpenSearch Ingestion pipeline to facilitate persisting of UBI queries and events.
