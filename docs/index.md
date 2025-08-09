@@ -28,10 +28,20 @@ There are a number of talks related to the topic of search quality and building 
 * :material-link: Breaking Search for Fun and Profit at Berlin Buzzwords 2025 - [Watch the presentation](https://www.youtube.com/watch?v=HIoivNg9SkY&list=PLq-odUc2x7i8dTff006Wg2r0fsseSGrpJ&index=57)
 * :material-link: Streamlining Search Quality: Search Relevance Workbench at Berlin Buzzwords 2025 - [Watch the presentation](https://www.youtube.com/watch?v=14kduAl2lx0&list=PLq-odUc2x7i8dTff006Wg2r0fsseSGrpJ&index=17)
 
+### UBI Blogs
+
+* :material-link: [ A/B Testing with Team Draft Interleaving](https://opensourceconnections.com/blog/2025/08/06/a-b-testing-with-team-draft-interleaving/)
+
+
 
 ### Help Getting Started
 
 For questions or help getting started, reach out to [help@ubisearch.dev](mailto:help@ubisearch.dev) or join us in the `#user-behavior-insights` channel of the [Relevance Slack workspace](https://opensourceconnections.com/slack) and we will be glad to help!
+
+There are two demos that you can play with that demonstrate UBI in action:
+
+ * [https://github.com/Eomm/opensearch-vibe](https://github.com/Eomm/opensearch-vibe) - A simple example
+ * [https://github.com/o19s/chorus-opensearch-edition](https://github.com/o19s/chorus-opensearch-edition) - A reference implementation of ecommerce.
 
 ## Purpose and Goals
 
