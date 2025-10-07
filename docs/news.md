@@ -1,5 +1,17 @@
 # UBI News
 
+## [Using UBI in Elasticsearch: Creating an app with UBI and search-ui](https://www.elastic.co/search-labs/blog/ubi-elasticsearch-creating-app-search-ui) - September 1, 2025
+
+Learn how to use UBI in Elasticsearch through a practical example. We’ll be creating an application that produces UBI events on search and click results. From the Elastic team.
+
+## [Elasticsearch plugin for UBI: Analyze user behavior from search queries](https://www.elastic.co/search-labs/blog/elasticsearch-plugin-user-behavior-insights) - August 1, 2025
+
+Discover how to use the UBI plugin to capture search queries and events in Elasticsearch to learn about user behavior. From the Elastic team.
+
+## [A vibe coded Fastify + OpenSearch UBI Hello World App](https://github.com/Eomm/opensearch-vibe) - July, 2025
+
+A minimal "Hello World" web application using Node.js with the Fastify v5 framework, containerized with Docker, and integrated with OpenSearch v3 User Behavior Insights (UBI) plugin.
+
 ## [UBI released in OpenSearch 3.1](https://opensearch.org/blog/get-started-with-opensearch-3-1/) - June 24, 2025
 
 OpenSearch 3.1 releases with `opensearch-ubi` plugin included and new Search Relevance Workbench that delivers implicit judgments using UBI data.
