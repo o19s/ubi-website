@@ -1,5 +1,9 @@
 # UBI News
 
+## [Elasticsearch plugin for UBI: Analyze user data in Kibana](https://www.elastic.co/search-labs/blog/elasticsearch-plugin-user-behavior-data-kibana) - September 26, 2025
+
+Discover how to capture user behavior data using the Elasticsearch plugin for UBI and build a custom dashboard in Kibana to analyze it. 
+
 ## [UBI released in OpenSearch 3.1](https://opensearch.org/blog/get-started-with-opensearch-3-1/) - June 24, 2025
 
 OpenSearch 3.1 releases with `opensearch-ubi` plugin included and new Search Relevance Workbench that delivers implicit judgments using UBI data.
