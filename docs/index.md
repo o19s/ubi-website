@@ -12,6 +12,8 @@ For questions or help getting started, reach out to [help@ubisearch.dev](mailto:
 
 Are you or your organization using UBI? Let us know! We'd [love to hear about it](mailto:help@ubisearch.dev) and tell your success story here.
 
+* :material-link: [OpenSearch Search Relevance Workbench](https://docs.opensearch.org/latest/search-plugins/search-relevance/using-search-relevance-workbench/) implicit judgements and query set creation is powered by UBI data.
+
 ### UBI Conference Presentations
 
 Learn more about UBI through conference presentations. If you have talked about UBI let us know so we can link your talk here, too.
@@ -31,6 +33,10 @@ There are a number of talks related to the topic of search quality and building 
 ### UBI Blogs
 
 * :material-link: [ A/B Testing with Team Draft Interleaving](https://opensourceconnections.com/blog/2025/08/06/a-b-testing-with-team-draft-interleaving/)
+* :material-link: [Elasticsearch plugin for UBI: Analyze user behavior from search queries](https://www.elastic.co/search-labs/blog/elasticsearch-plugin-user-behavior-insights)
+* :material-link: [Using UBI in Elasticsearch: Creating an app with UBI and search-ui](https://www.elastic.co/search-labs/blog/ubi-elasticsearch-creating-app-search-ui)
+* :material-link: [Elasticsearch plugin for UBI: Analyze user data in Kibana](https://www.elastic.co/search-labs/blog/elasticsearch-plugin-user-behavior-data-kibana)
+
 
 
 
@@ -51,12 +57,13 @@ There are many tools out there for tracking web events, e.g. Google Analytics, b
 
 The User Behavior Insights [standard](standard.md) attempts to provide a search focused standard that can operate across many platforms. We currently have [plugins](https://www.ubisearch.dev/tools/) for OpenSearch, Elasticsearch and Solr, but we hope that many other search platforms adopt UBI - [get in touch](mailto:help@ubisearch.dev)  if you'd like to help.  
 
-Once you have this tracking data, you can potentially use it to:
+Once you have this tracking data, you can use it to:
 
 * Develop a deeper understanding of what your users are doing.
-* Create search relevance metrics.
+* Power your offline evaluation platform. 
 * Tune search parameters automatically. 
 * Balance between different approaches to search (e.g. lexical and/or semantic).
+* Deploy Team Draft Interleaving style A/B tests that drop test times to days from months.
 
 ## Reference Implementation
 
