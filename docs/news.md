@@ -1,5 +1,9 @@
 # UBI News
 
+## [Elasticsearch plugin for UBI: Analyze user data in Kibana](https://www.elastic.co/search-labs/blog/elasticsearch-plugin-user-behavior-data-kibana) - September 26, 2025
+
+Discover how to capture user behavior data using the Elasticsearch plugin for UBI and build a custom dashboard in Kibana to analyze it. 
+
 ## [Using UBI in Elasticsearch: Creating an app with UBI and search-ui](https://www.elastic.co/search-labs/blog/ubi-elasticsearch-creating-app-search-ui) - September 1, 2025
 
 Learn how to use UBI in Elasticsearch through a practical example. We’ll be creating an application that produces UBI events on search and click results. From the Elastic team.
