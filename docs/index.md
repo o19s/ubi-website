@@ -36,6 +36,7 @@ There are a number of talks related to the topic of search quality and building 
 * :material-link: [Elasticsearch plugin for UBI: Analyze user behavior from search queries](https://www.elastic.co/search-labs/blog/elasticsearch-plugin-user-behavior-insights)
 * :material-link: [Using UBI in Elasticsearch: Creating an app with UBI and search-ui](https://www.elastic.co/search-labs/blog/ubi-elasticsearch-creating-app-search-ui)
 * :material-link: [Elasticsearch plugin for UBI: Analyze user data in Kibana](https://www.elastic.co/search-labs/blog/elasticsearch-plugin-user-behavior-data-kibana)
+* :material-link: [Training LTR models in Elasticsearch with judgement lists based on user behavior data](https://www.elastic.co/search-labs/blog/training-learning-to-rank-models-elasticsearch-ubi-data)
 
 
 
